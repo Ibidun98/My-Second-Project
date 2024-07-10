@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0rem;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.heroheader {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+li {
+    color: #1F1534;
+    font-family: Mulish;
+    list-style: none;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* .firstNav li{
+    font-weight: 700;
+    margin-left: 20rem;
+    
+} */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-top: 2rem;
+    align-items: center;
+    margin-left: 6rem;
+}
+
+.hero {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-left: 7rem;
+}
+
+.heroText h4 {
+    font-family: Mulish;
+    font-size: 38px;
+    font-weight: 700;
+    width: 85%;
+    margin-top: 6rem;
+    padding-bottom: 1rem;
+    margin-right: 8rem;
+}
+
+.heroText p {
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 80%;
+    color: #7D7987;
+}
+
+.heroImage img {
+    width: 80%;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+
+.heroImage {
+    width: 100%;
+}
+
+.heroBtn button {
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: none;
+    padding: .7rem 1rem;
+    background-color: #458FF6;
+    border-radius: 50px;
+    margin-top: 1rem;
+}
+
+.innerContainer {
+    width: 80%;
+    margin: auto;
+}
+
+.service {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.lines {
+    width: 5%;
+    margin: auto;
+    align-items: center;
+
+}
+
+.black {
+    border: 0.5px solid #000000;
+    border-radius: 50px;
+
+}
+
+.servicePlace h2 {
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.servicePlace p {
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 23px;
+    text-align: center;
+    width: 58%;
+    color: #7D7987;
+    margin-left: 12rem;
+}
+
+.medicine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9rem;
+}
+
+.medicineImage img {
+    width: 100%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.medicineText h2 {
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 45px;
+    width: 65%;
+    margin-top: 6rem;
+    margin-left: 7rem;
+}
+
+.medicineText p {
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 50%;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    color: #7D7987;
+    ;
+}
+
+.line {
+    margin-left: 7rem;
+    width: 6%;
+    margin-top: 1rem;
+}
+
+
+.blacks {
+    border: 0.5px solid #000000;
+    border-radius: 50px;
+}
+
+
+.medicineButton button {
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 50px;
+    border: 1px solid #458FF6;
+    width: 22%;
+    margin-left: 7rem;
+    padding: .7rem 1rem;
+    background: none;
+    color: #458FF6;
+    margin-top: 1rem;
+}
+
+.mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.mobileImage img {
+    width: 110%;
+    margin: auto;
+    margin-top: 1rem;
+    padding-right: 8rem;
+}
+
+
+.mobileText h2 {
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 45px;
+    width: 50%;
+    padding-left: 6rem;
+}
+
+.lineM {
+    margin-left: 6rem;
+    width: 6%;
+    margin-top: 1rem;
+}
+
+.blackM {
+    border: 0.5px solid #000000;
+    border-radius: 50px;
+}
+
+.mobileText p {
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 56%;
+    margin-top: 1rem;
+    padding-left: 6rem;
+    color: #7D7987;
+}
+
+.mobileButton button {
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid #458FF6;
+    width: 22%;
+    margin-left: 6rem;
+    padding: .7rem 1rem;
+    background: none;
+    color: #458FF6;
+    margin-top: 1rem;
+    border-radius: 50px;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.reviewParagraph p {
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 45%;
+    line-height: 20px;
+
+
+}
+
+.box {
+    background-color: #5A98F2;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 7rem;
+    margin-bottom: 6rem;
+    
+}
+
+.box h2 {
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 48px;
+    color: white;
+    padding-left: 200px;
+    padding-top: 1rem;
+    
+}
+
+.lineB {
+    margin-left: 25rem;
+    width: 6%;
+    margin-top: 1rem;
+}
+
+.white {
+    border: 0.5px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.reviewParagraph{
+    width: 60%;
+}
+
+.reviewParagraph p{
+    width: 60%;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    padding-top: 1rem;
+}
+
+.reviewImage img {
+    width: 80%;
+}
+
+.reviewText h5 {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.reviewText p {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.articleText h2 {
+    font-family: Mulish;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    
+}
+
+.promotion {
+    display: flex;
+    width: 80%;
+    gap: 1rem;
+    margin: auto;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+}
+
+.promotionText h2 {
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    width: 80%;
+    background-color: white;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.promotionText p {
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    width: 90%;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.promotionImage img {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.promotionButton button {
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 28px;
+    border: none;
+    background: none;
+    padding-left: 2rem;
+    color: #4089ED;
+}
+
+.linearticle {
+    width: 5%;
+    margin: auto;
+    align-items: centre;
+}
+
+.blackarticle {
+    border: 0.5px solid;
+    border-radius: 50px;
+}
+
+.viewButton button {
+    /* align-items: center; */
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 50px;
+    /* width: 50%; */
+    padding: .5rem 1.5rem;
+    border: 1px solid #458FF6;
+    color: #458FF6;
+    background: transparent;
+    margin-top: 2rem;
+}
+
+.viewButton {
+    text-align: center;
+}
+
+footer{
+    background-color: #67C3F3;
+    margin: 5rem;
+}
+
+.footContainer{
+    /* width: 80%; */
+    /* margin: auto; */
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    display: flex; 
+}
+
+.logoSide{
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+
+.logoSide p{
+    font-family: Mulish;
+font-size: 12px;
+font-weight: 300;
+line-height: 28px;
+width: 45%;
+color:#FFFFFF;
+}
+
+.serviceSide{
+    display: flex;
+    gap: 5rem;
+}
+
+.serviceSide h4{
+    font-family: Mulish;
+font-size: 16px;
+font-weight: 700;
+line-height: 60px;
+color: #FFFFFF;
+}
+
+.serviceSide li{
+    font-family: Mulish;
+font-size: 14px;
+font-weight: 300;
+line-height: 38px;
+color: #FFFFFF;
+
+}
