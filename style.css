@@ -31,11 +31,7 @@ li {
     font-weight: 300;
 }
 
-/* .firstNav li{
-    font-weight: 700;
-    margin-left: 20rem;
-    
-} */
+
 
 header {
     display: flex;
@@ -106,9 +102,10 @@ header {
 }
 
 .lines {
-    width: 5%;
+    width: 3%;
     margin: auto;
     align-items: center;
+
 
 }
 
@@ -133,7 +130,8 @@ header {
     text-align: center;
     width: 58%;
     color: #7D7987;
-    margin-left: 12rem;
+    margin: auto;
+    margin-top: 1rem;
 }
 
 .medicine {
@@ -275,8 +273,6 @@ header {
     line-height: 30px;
     width: 45%;
     line-height: 20px;
-
-
 }
 
 .box {
@@ -322,10 +318,15 @@ header {
 }
 
 .reviewParagraph p{
-    width: 60%;
+    width: 70%;
     color: #FFFFFF;
     margin-left: 2rem;
     padding-top: 1rem;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+
 }
 
 .reviewImage img {
@@ -356,6 +357,10 @@ header {
     
 }
 
+.promotionImage{
+    box-shadow: 10px 40px 50px 0px #E5E9F666; 
+}
+
 .promotion {
     display: flex;
     width: 80%;
@@ -363,7 +368,8 @@ header {
     margin: auto;
     margin-left: 6rem;
     margin-top: 2rem;
-    box-shadow: 10px 40px 50px 0px #E5E9F666;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .promotionText h2 {
@@ -418,12 +424,10 @@ header {
 }
 
 .viewButton button {
-    /* align-items: center; */
     font-family: Mulish;
     font-size: 14px;
     font-weight: 700;
     border-radius: 50px;
-    /* width: 50%; */
     padding: .5rem 1.5rem;
     border: 1px solid #458FF6;
     color: #458FF6;
@@ -437,52 +441,405 @@ header {
 
 footer{
     background-color: #67C3F3;
-    margin: 5rem;
     width: 100%;
     margin: auto;
     margin-top: 6rem;
 }
 
 .footContainer{
-    /* width: 80%; */
-    /* margin: auto; */
     padding-top: 4rem;
     padding-bottom: 1rem;
-    display: flex; 
-}
+     display: flex; 
+     width: 80%;
+     margin: auto;
+} 
 
 .logoSide{
-    margin-left: 8rem;
+    width: 50%;
     margin-top: 1rem;
 }
 
 .logoSide p{
-    font-family: Mulish;
-font-size: 12px;
+font-family: Mulish;
+font-size: 16px;
 font-weight: 300;
 line-height: 28px;
-width: 45%;
+width: 65%;
 color:#FFFFFF;
+}
+
+.footText p{
+ font-family: Mulish;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px;
+width: 60%;
+margin-top: 2rem;
+
 }
 
 .serviceSide{
     display: flex;
     gap: 5rem;
+    width: 50%;
 }
 
 .serviceSide h4{
-    font-family: Mulish;
+font-family: Mulish;
 font-size: 16px;
 font-weight: 700;
 line-height: 60px;
 color: #FFFFFF;
+
 }
 
 .serviceSide li{
-    font-family: Mulish;
-font-size: 14px;
+ font-family: Mulish;
+font-size: 16px;
 font-weight: 300;
 line-height: 38px;
 color: #FFFFFF;
+}
+
+.quickbox{
+    background-color: white;
+    border-radius: 10px; 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.quick{
+    width: 100%;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 4rem;
+}
+
+
+.quickImage img{
+    width: 20%;
+}
+
+.quickText h3{
+font-family: Mulish;
+font-size: 20px;
+font-weight: 700;
+line-height: 56px;
+}
+
+.quickText p{
+    font-family: Mulish;
+font-size: 14px;
+font-weight: 300;
+line-height: 28px;
+width: 80%;
+color:  #7D7987;
+}
+
+.quickButton {
+    text-align: center;
+}
+
+.quickButton button{
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 50px;
+    border: 1px solid #458FF6;
+    width: 12%;
+    padding: .7rem 1rem;
+    background: none;
+    color: #458FF6;
+    margin-top: 1rem; 
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .heroText h4 {
+        width: 100%;
+    }
+
+    .heroText p {
+        font-family: Mulish;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        width: 90%;
+        color: #7D7987;
+    }
+    
+    .heroImage img {
+        width: 70%;
+    }
+
+    .lines {
+        width: 7%;
+    }
+    
+    .servicePlace p {
+        width: 78%;
+    }
+    
+
+    .quickText p{
+    width: 100%;
+    }
+
+    .quickButton button{
+        width: 15%;
+    }
+    
+    .medicineImage img {
+        width: 100%;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    .medicineText h2 {
+        width: 65%;
+    }
+    
+    .medicineText p {
+        width: 70%;    
+    }
+
+    .line {
+        width: 10%;
+    }
+    
+    .medicineButton button {
+        width: 30%;     
+}
+
+.mobileImage img {
+    width: 130%;
+}
+
+
+.mobileText h2 {
+    width: 80%;
+}
+
+.lineM {
+    width: 10%;
+}
+
+.mobileText p {
+    width: 76%;
+}
+
+.mobileButton button {
+    width: 30%;
+}
+
+.box {
+    width: 95%; 
+}
+
+.reviewParagraph p{
+    width: 85%;
+}
+
+.reviewText h5 {
+    font-size: 18px;
+}
+
+ .promotionButton button {
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 28px;
+    border: none;
+    background: none;
+    padding-left: 2rem;
+    color: #4089ED;
+}
+
+.viewButton button {
+    margin-top: 3rem;
+    width: 18%;
+}
+
+
+.logoSide p{
+width: 45%;
 
 }
+
+.footText p{
+width: 60%;
+}
+
+
+ .serviceSide li{
+font-size: 14px;
+} 
+
+.logoSide p{
+    width: 70%;
+    }
+    
+    .footText p{
+    width: 90%;
+    }
+
+    .footContainer{
+         width: 90%;
+    } 
+}
+
+    @media screen and (max-width:768px){
+        nav{
+            display: none;
+    }
+
+    .heroText h4 {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .heroText p {
+        width: 95%;
+    }
+
+    
+    .heroImage img {
+        width: 100%;
+        margin: auto;
+        margin-top: 6rem;
+    
+    }
+
+    .lines {
+        width: 5%;
+    }
+
+    .servicePlace p {
+        font-family: Mulish;
+        font-size: 11px;
+        font-weight: 300;
+        line-height: 23px;
+        text-align: center;
+        width: 95%;
+        color: #7D7987;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    .quickbox{
+        background-color: white;
+        border-radius: 10px; 
+        padding: 6px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .quickImage img{
+        width: 30%;
+    }
+    
+    .quickText h3{
+    font-size: 18px;
+    }
+    
+    .quickText p{
+    font-size: 12px;
+    width: 100%;
+    }
+
+    .quickButton button{
+        width: 20%;
+    }
+
+    .medicineImage img {
+        width: 100%;
+        margin: auto;
+        margin-top: 4rem;
+    }
+
+    
+    .medicineText h2 {
+        font-size: 18px;
+        line-height: 25px;
+        width: 80%;
+        margin-left: 5rem;
+    }
+
+    .line {
+        margin-left: 5rem;
+        width: 10%;
+    }
+    
+    .medicineButton button {
+        width: 40%;
+    }
+
+    .medicineText p {  
+        width: 90%;
+        margin-left: 8rem;
+        
+    }
+
+    .mobileImage img {
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 7rem;
+    }
+    
+    
+    .mobileText h2 {  
+        width: 100%;
+    
+    }
+    
+    .lineM { 
+        width: 10%;
+    }
+    
+
+    
+    .mobileText p {
+        width: 100%;
+    }
+    
+    .mobileButton button { 
+        width: 35%;
+    }
+
+
+    .box {
+        width: 100%; 
+        
+    
+    }
+    
+    .reviewParagraph p{
+        width: 100%;
+        margin: auto;
+        font-size: 12px;
+    }
+    .boxText h2{
+        font-size: 20px;
+    }
+
+    .lineB{
+        align-items: center;
+        margin: auto;
+    }
+
+    .reviewText h5 {
+        font-size: 14px;
+    }
+
+    .reviewText p{
+        font-size: 12px;
+    }
+    
+}
+
+    
+
+
+    
