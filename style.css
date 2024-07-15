@@ -211,6 +211,8 @@ header {
     align-items: center;
     width: 100%;
     margin: auto;
+    margin-top: 5rem;
+
 }
 
 .mobileImage img {
@@ -231,7 +233,7 @@ header {
     font-size: 28px;
     font-weight: 700;
     line-height: 45px;
-    width: 50%;
+    width: 60%;
     padding-left: 6rem;
 }
 
@@ -251,7 +253,7 @@ header {
     font-size: 12px;
     font-weight: 300;
     line-height: 25px;
-    width: 56%;
+    width: 65%;
     margin-top: 1rem;
     padding-left: 6rem;
     color: #7D7987;
