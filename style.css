@@ -135,16 +135,25 @@ header {
 }
 
 .medicine {
+    width: 100%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 9rem;
+    /* gap: 9rem; */
+}
+
+.medicineImage{
+    width: 40%;
+}
+
+.medicineText{
+    width: 50%;
 }
 
 .medicineImage img {
     width: 100%;
-    margin: auto;
-    margin-top: 4rem;
+
 }
 
 .medicineText h2 {
@@ -200,14 +209,20 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 8rem;
+    width: 100%;
+    margin: auto;
 }
 
 .mobileImage img {
-    width: 110%;
-    margin: auto;
-    margin-top: 1rem;
-    padding-right: 8rem;
+    width: 100%;
+}
+
+.mobileImage{
+    width: 40%;
+}
+
+.mobileText{
+    width: 50%;
 }
 
 
@@ -280,8 +295,8 @@ header {
     border-radius: 10px;
     width: 80%;
     margin: auto;
-    margin-top: 7rem;
-    margin-bottom: 6rem;
+     margin-top: 7rem;
+    margin-bottom: 6rem; 
     
 }
 
@@ -366,7 +381,6 @@ header {
     width: 80%;
     gap: 1rem;
     margin: auto;
-    margin-left: 6rem;
     margin-top: 2rem;
     border-radius: 20px;
     overflow: hidden;
@@ -379,7 +393,7 @@ header {
     line-height: 20px;
     width: 80%;
     background-color: white;
-    padding-left: 2rem;
+     padding-left: 2rem; 
     padding-top: 1rem;
 }
 
@@ -389,9 +403,9 @@ header {
     font-weight: 300;
     line-height: 20px;
     width: 90%;
-    padding-left: 2rem;
-    padding-top: 0.5rem;
-    padding-bottom: 2rem;
+    padding-left: 2rem; 
+     padding-top: 0.5rem; 
+      padding-bottom: 2rem;  
 }
 
 .promotionImage img {
@@ -592,7 +606,7 @@ color:  #7D7987;
     .quickButton button{
         width: 15%;
     }
-    
+
     .medicineImage img {
         width: 100%;
         margin: auto;
@@ -614,21 +628,26 @@ color:  #7D7987;
         width: 30%;     
 }
 
-.mobileImage img {
-    width: 130%;
+    .mobile{
+    margin-top: 3rem;
+}
+
+    .mobileImage img {
+    width: 100%;
 }
 
 
-.mobileText h2 {
+    .mobileText h2 {
     width: 80%;
 }
 
-.lineM {
+.lineM{
     width: 10%;
 }
 
+
 .mobileText p {
-    width: 76%;
+    width: 80%;
 }
 
 .mobileButton button {
@@ -764,11 +783,10 @@ font-size: 14px;
         font-size: 18px;
         line-height: 25px;
         width: 80%;
-        margin-left: 5rem;
+    
     }
 
     .line {
-        margin-left: 5rem;
         width: 10%;
     }
     
@@ -778,47 +796,45 @@ font-size: 14px;
 
     .medicineText p {  
         width: 90%;
-        margin-left: 8rem;
-        
     }
+
 
     .mobileImage img {
         width: 100%;
-        margin-top: 1rem;
-        margin-left: 7rem;
     }
-    
     
     .mobileText h2 {  
         width: 100%;
-    
     }
     
-    .lineM { 
-        width: 10%;
+    .mobileImage{
+        width: 40%;
     }
     
-
+    .mobileText {
+        width: 50%;
+    }
     
-    .mobileText p {
+    .mobileText p{
         width: 100%;
     }
     
     .mobileButton button { 
-        width: 35%;
-    }
+        width: 40%;
+    } 
+
+
 
 
     .box {
         width: 100%; 
-        
-    
     }
     
     .reviewParagraph p{
         width: 100%;
         margin: auto;
-        font-size: 12px;
+        font-size: 14px;
+        line-height: 25px;
     }
     .boxText h2{
         font-size: 20px;
@@ -836,10 +852,30 @@ font-size: 14px;
     .reviewText p{
         font-size: 12px;
     }
+
+    .promotion {
+    
+    }
+
+    .promotionText h2 {
+        font-family: Mulish;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        width: 100%;
+        background-color: white;
+        padding-top: 1rem;
+    }
+    
+    .promotionText p {
+        font-family: Mulish;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 20px;
+        width: 90%;
+        padding-left: 2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 2rem;
+    }
     
 }
-
-    
-
-
-    
